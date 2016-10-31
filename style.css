@@ -13,6 +13,7 @@
 .jumbotron {
   background-image:url('https://lh3.googleusercontent.com/opugwGxVv3Qntw9Dy4kBjpoXzNjfI85rNCOl7GRmkzakV1YTfofiW11euAtlo9hvryNQmm9S=s630-fcrop64=1,108a125ef9b1d5c9');
   height: 500px;
+  background-size: cover;
 }
 
 .jumbotron .container {
