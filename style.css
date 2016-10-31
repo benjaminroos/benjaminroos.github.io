@@ -1,0 +1,71 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://d3u9f6il9bw5e1.cloudfront.net/assets/jobmensa/about/about-title-a2a686dfd827dbc4632bcda40748a377.jpg');
+  height: 500px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:300px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 30px;
+  color: #fff;
+}
+
+.neighborhood-guides {
+  background-color: #efefef;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2 {
+  color: #393c3d;
+  font-size: 24px;;
+}
+
+.neighborhood-guides .row .col-md-4 h4 {
+  left: 50px;
+  top: 1px;
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.neighborhood-guides p {
+  margin-bottom: 13px;
+  font-size: 15px;;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
