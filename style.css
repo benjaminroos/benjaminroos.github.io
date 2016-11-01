@@ -193,7 +193,9 @@ figcaption span {
 /* Lebenslaufbild oben */
 
 .cliped-image {
-  border-radius: 100%;
+  border-radius: 50%;
+  width: 30%;
+  height: 50%;
   /* ff */
   /* Clip-Path als Alternative
   -webkit-clip-path: circle(50% at 50% 50%);
