@@ -1,123 +1,209 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
-  <head>
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    <link rel="stylesheet" href="style.css">
-
+    <title>Benjamin Roos</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/5fb7047e6d.js"></script>
   </head>
 
   <body>
-    <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">CV</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="#">Unternehmer</a></li>
-          <li><a href="#">Unterstützer</a></li>
-          <li><a href="#">Blogger & Speaker</a></li>
-          <li><a href="#">Kontakt</a></li>
-        </ul>
+
+  <!-- ============================================================================================================================== -->
+  <!-- HEADER -->
+  <header id="header-start">
+      <img src="/images/br_profil.jpg" alt="profilbild" class="cliped-image">
+      <h1>Benjamin Roos</h1>
+
+      <ul class="icons-social-media">
+          <li><a href="https://de.linkedin.com/" title="LinkedIn" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="https://plus.google.com" title="Google+" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/?lang=de" title="Twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://de-de.facebook.com/" title="Facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      </ul>
+
+      <nav>
+          <ul>
+              <li><a href="#block-1">ÜBER MICH</a></li>
+              <li><a href="#block-2">LEBENSLAUF</a></li>
+              <li><a href="#block-3">PROJEKTE</a></li>
+              <li><a href="#block-4">KONTAKT</a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <!-- ============================================================================================================================== -->
+  <!-- BLOCK 1 -->
+  <section id="block-1">
+      <i class="fa fa-chevron-down section-arrow" aria-hidden="true"></i>
+      <div class="callout text-left">
+          <h3>Über mich</h3>
+          <hr class="hr-small"/>
+
+          <div class="motto">
+              <div class="zitat-image">
+                  <img src="https://www.united-domains.de/beispiel-vorlage/images/zitat.png" alt="icon-zitat">
+              </div>
+              <p>
+                  "Perfektion ist nicht dann erreicht, wenn es nichts mehr hinzuzufügen gibt, sondern wenn man nichts mehr weglassen kann."
+                  <br>
+                  <i>- Antoine de Saint-Exupéry</i>
+              </p>
+
+          </div>
+
+          <h4 class="secondary-heading">EINE SPALTE</h4>
+          <div class="one-column">
+              <p>
+                  Mir liegt eine solide und persönliche Beratung sehr am Herzen. Ich konzentriere mich auf die Konzeption und das Design anspruchsvoller
+                  Internetauftritte und biete Ihnen das komplette Leistungsspektrum: von der Planung, Erstellung und Vermarktung, bis hin zur Wartung Ihrer Website.
+              </p>
+              <p>
+                  Seit 1999 erarbeite ich neue und ungewöhnliche Webkonzepte für höchst unterschiedliche Branchen. Hierfür bringe ich das nötige Einfühlungsvermögen mit,
+                  um mich in Ihre Geschäftsprozesse hineinzudenken. Ich bin ein flexibler Partner, der Ihr Unternehmen optimal im Web präsentiert.
+              </p>
+          </div>
+
+          <h4 class="secondary-heading">ZWEI SPALTEN</h4>
+          <div class="multicolumn">
+              <p>
+                  Mir liegt eine solide und persönliche Beratung sehr am Herzen. Ich konzentriere mich auf die Konzeption und das Design anspruchsvoller
+                  Internetauftritte und biete Ihnen das komplette Leistungsspektrum: von der Planung, Erstellung und Vermarktung, bis hin zur Wartung Ihrer Website.
+              </p>
+              <p>
+                  Seit 1999 erarbeite ich neue und ungewöhnliche Webkonzepte für höchst unterschiedliche Branchen. Hierfür bringe ich das nötige Einfühlungsvermögen mit,
+                  um mich in Ihre Geschäftsprozesse hineinzudenken. Ich bin ein flexibler Partner, der Ihr Unternehmen optimal im Web präsentiert.
+              </p>
+          </div>
+
+          <h4 class="competency-heading">MEINE KOMPETENZEN:</h4>
+
+          <ul>
+              <li>Responsive Webdesign</li>
+              <li>Html5 und CSS3, JQuery</li>
+              <li>Social Media Marketing</li>
+              <li>SEO / Suchmaschinenoptimierung</li>
+              <li>Datenanalyse</li>
+          </ul>
       </div>
-    </div>
+  </section>
 
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Entrepreneurship. Engagement. Marketing.</h1>
-        <p>Jetzt sind die guten alten Zeiten, nach denen wir uns in zehn Jahren zurücksehnen!</p>
-        <a href="#">mehr</a>
+  <!-- ============================================================================================================================== -->
+  <!-- BLOCK 2 -->
+  <section id="block-2">
+      <i class="fa fa-chevron-down section-arrow" aria-hidden="true"></i>
+      <div class="callout text-left">
+          <h3>Lebenslauf</h3>
+          <hr class="hr-small"/>
+
+          <dl class="definition-list">
+              <dt>Januar 2016 - Juli 2016</dt>
+              <dd>Systemadministrator | Notlimah Zoob Nella
+
+              <dt>Januar 2014 - Dezember 2015</dt>
+              <dd>
+                  Senior Webentwickler | betterservice AG <br>
+                  Projektkoordinierung und Entwicklung von webbasierten Diensten zur Analyse von Fahrzeugdaten.
+              </dd>
+
+              <dt>Oktober 2003 - Dezember 2013</dt>
+              <dd>
+                  Senior Webentwickler | Findthetruth Markforschung GmbH & Co. KG <br>
+                  Steuerung des Projekts Kundentransparenz. Entwicklung von webbasierten Diensten zur Analyse großer Kundengruppen.
+              </dd>
+
+              <dt>Januar 2000 - September 2003</dt>
+              <dd>
+                  Webentwickler | Rookietech Inc. <br>
+                  Konzept, Gestaltung, Umsetzung und langfristige Betreuung einer neuen <a href="https://www.united-domains.de" title="ein Link zu united-domains">eCommerce-Plattform</a>.
+              </dd>
+
+              <dt>1996 - 1999</dt>
+              <dd>
+                  Ausbildung zum Mediengestalter an der KHI <br>
+                  Design und Entwicklung von Webseiten/Printmedien
+              </dd>
+
+              <dt>November 1995 - Dezember 1995</dt>
+              <dd>Praktikum bei einem informationsverarbeitenden Unternehmen in Pullach.</dd>
+          </dl>
       </div>
-    </div>
+  </section>
 
-    <div class="neighborhood-guides">
-        <div class="container">
-        <h2>Über mich</h2>
-        <p> Jobmensa & STUDITEMPS Gründer, Mitglied der Tarifkommission des IGZ, NRW Landesbeauftragter BVDS, FC-Fan, Marketing Enthusiast, Familienmensch</p>
-            <div class=row>
-                <div class="col-md-4">
-                 <div class="thumbnail">
-                  <div class="container">
-                    <h4>Marketing</h4>
-                </div>
-                        <img src="https://lh3.googleusercontent.com/-fGUvVLiJQTI/UzVCE_umzrI/AAAAAAAAAVM/ahvQC8OA5s8/w2048-h1365/BJ0C3314.jpg">
-                    </div>
-                    <div class="thumbnail">
-                    <div class="container">
-                    <h4>Management</h4>
-                </div>
-                        <img src="http://magazin.jobmensa.de/wp-content/uploads/Studitemps_Gruppe_GS_0412_0143.jpg">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                <div class="thumbnail">
-                <div class="container">
-                    <h4>BVDS</h4>
-                </div>
-                        <img src="http://www.fuer-gruender.de/blog/wp-content/uploads/2014/07/Silicon-Valley-Deutsche-Startups-Gruppenphoto.png">
-                    </div>
-                     <div class="thumbnail">
-                     <div class="container">
-                    <h4>Leidenschaft</h4>
-                </div>
-                        <img src="https://ig-zeitarbeit.de/sites/default/files/styles/fullnode/public/redaktion/bilder/2015/dsc_1728_klein_1.jpg?itok=hxPZa0kc">
-                    </div>
+  <!-- ============================================================================================================================== -->
+  <!-- BLOCK 3 -->
+  <section id="block-3">
+      <i class="fa fa-chevron-down section-arrow" aria-hidden="true"></i>
+      <div class="callout text-center">
+          <h3>Projekte</h3>
+          <hr class="hr-small"/>
 
-                </div>
-                <div class="col-md-4">
-                <div class="thumbnail">
-                <div class="container">
-                    <h4>IGZ</h4>
-                </div>
-                        <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpa1/t1.0-9/184595_10151611803799130_1995665036_n.jpg">
-                    </div>
-                     <div class="thumbnail">
-                     <div class="container">
-                    <h4>Jobmensa</h4>
-                </div>
-                        <img src="https://pbs.twimg.com/media/B31og2dCUAEErFE.png">
-                    </div>
-                <div class="thumbnail">
-                <div class="container">
-                    <h4>Unternehmer</h4>
-                </div>
-                        <img src="http://magazin.jobmensa.de/wp-content/uploads/Bildschirmfoto-2012-07-01-um-16.06.46.png">
-                    </div>
+          <article class="img-item">
+              <figure>
+                  <img src="https://www.united-domains.de/beispiel-vorlage/images/bild_1.png">
+                  <figcaption>
+                      <h4>
+                          Webapplikation
+                      </h4>
+                      Weiterentwicklung einer bestehenden Webapplikation im Bereich B2C und Customer Self Care.
+                  </figcaption>
+              </figure>
+          </article>
 
-                </div>
-            </div>
-        </div>
-    </div>
+          <article class="img-item">
+              <figure>
+                  <img src="https://www.united-domains.de/beispiel-vorlage/images/bild_2.png">
+                  <figcaption>
+                      <h4>
+                          Firmenplattform
+                      </h4>
+                      Erstellung einer neuartigen, regionalen Firmenplattform unter Wordpress zur Vermarktung regionaler Produkte.
+                  </figcaption>
+              </figure>
+          </article>
 
-    <div class="learn-more">
-	  <div class="container">
-		<div class=row>
-	      <div class="col-md-4">
-			<h3>Unternehmer</h3>
-			<p>Eine Übersicht aller Unternehmen, die ich bisher gegründet habe oder versucht habe zu gründen</p>
-			<p><a href="#">mehr</a></p>
-	      </div>
-		  <div class="col-md-4">
-			<h3>Unterstützer</h3>
-			<p>Verbände und Vereine, in denen ich mich engagiere und die ich unterstütze</p>
-			<p><a href="#">mehr</a></p>
-		  </div>
-		  <div class="col-md-4">
-			<h3>Blogger & Speaker</h3>
-			<p>Von mir verfasste Artikel in Blogs & Magazinen und gehaltene Vorträge auf Messen & Events</p>
-			<p><a href="#">mehr</a></p>
-		  </div>
-	    </div>
-	  </div>
-	</div>
+          <br class="clear"/>
+      </div>
+  </section>
+
+  <!-- ============================================================================================================================== -->
+  <!-- BLOCK 4 -->
+  <section id="block-4">
+      <i class="fa fa-chevron-down section-arrow" aria-hidden="true"></i>
+      <div class="callout text-center">
+          <h3>Kontakt</h3>
+          <hr class="hr-small"/>
+
+          <p>
+              <i class="fa fa-map-marker icon-location" aria-hidden="true"></i><br>
+              <span>united-domains AG</span> <br>
+              <span>Gautinger Straße 10</span> <br>
+              <span>82319 Starnberg</span> <br>
+              <span>Deutschland</span> <br>
+          </p>
+          <p class="mt30">
+              <i class="fa fa-envelope-o icon-mail" aria-hidden="true"></i><br>
+              <span>beispiel [at] united-domains [dot] de</span>
+          </p>
+      </div>
+  </section>
+
+  <!-- ============================================================================================================================== -->
+  <!-- FOOTER -->
+  <footer>
+      <a href="#header-start" class="back-to-top-button"><i class="fa fa-chevron-down rotate" aria-hidden="true"></i></a>
+      <div class="footer-copyright">
+          &copy; Das ist ein Blindtext
+
+          <div class="font-licence">
+              <a href="http://fortawesome.github.com/Font-Awesome/">FontAwesome</a> icons licensed under <a href="http://scripts.sil.org/OFL_web"> SIL OFL</a>.
+          </div>
+      </div>
+  </footer>
+
   </body>
 </html>
