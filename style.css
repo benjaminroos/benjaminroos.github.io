@@ -194,7 +194,7 @@ figcaption span {
 
 .cliped-image {
   border-radius: 50%;
-  width: 100px;
+  width: 200px;
   height: auto;
   /* ff */
   /* Clip-Path als Alternative
